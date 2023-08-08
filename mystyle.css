@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 50px;
+  text-shadow: black;
+}
+
+
+.hero h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    padding: 10px 20px; 
+    color: #ffffff; 
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .about-content p {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    background-image: url('img/iStock-625135580.jpg');
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  h2 {
+    margin-left: 10px;
+    color: #3498db;
+  }
+  #frase {
+    display: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    padding: 10px 20px; 
+    color: #ffffff; 
+    margin-top: 200px;
+  }
+
+.contact {
+  float: left;
+}
+
+.social-icons {
+  margin-top: 50px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo img {
+  width: 40px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.services {
+  padding: 0px 0;
+  text-align: center;
+}
+
+.service-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.service {
+  background-color: #3498db;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s, height 0.3s; /* Adicionado 'height' à transição */
+  flex: 1;
+  max-width: calc(33.33% - 20px); /* Divide em 3 colunas e considera o espaçamento */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Colocar conteúdo em coluna */
+  align-items: center; /* Centraliza o conteúdo */
+}
+
+.service-content {
+  background-color: #3498db; /* Fundo azul */
+  padding: 10px;
+  border-radius: 10px 10px 0 0; /* Borda arredondada no canto superior */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Alinha o texto ao final do bloco */
+  transition: background-color 0.3s; /* Adicionado transição para fundo azul */
+  position: relative;
+  top: 0; /* Posição inicial */
+  z-index: 2; /* Mantém o texto acima da imagem */
+  transform: translateY(0); /* Posição vertical inicial */
+  transition: transform 0.3s; /* Adicionado transição para posição vertical */
+}
+
+.service p {
+  color: #fff;
+  margin: 0;
+}
+
+.service-image {
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%; /* Deixa a imagem completamente arredondada */
+  transition: transform 0.3s, opacity 0.3s; /* Adicionado transição para opacidade */
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+.service:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 200px; /* Aumenta a altura no hover */
+}
+
+.service:hover .service-content {
+  background-color: rgba(52, 152, 219, 0.9); /* Fundo azul mais escuro no hover */
+  transform: translateY(20px); /* Move o texto para baixo no hover */
+}
+.service:hover p {
+  margin-top: 20px;
+}
+
+.service:hover .service-image {
+  opacity: 0.6; /* Reduz a opacidade da imagem no hover */
+}
+
+.service:hover img {
+  transform: scale(1.2);
+}
+
+.service-block {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.textoinicial{
+  background-color: #3498db;
+  padding: 20px;
+}
+#textoinicial {
+  color: #ffffff;
+}
+
+h3 {
+  color: white;
+  background-color: #3498db;
+  padding: 10px;
+  width: 580px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.contato {
+  background-color: #ebe6e6;
+  float: right;
+  margin-right: 70px;
+  text-align: center;
+  padding: 10px;
+}
+
+.contato img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+#localizaçao {
+  filter: brightness(120%)
+}
+#email {
+  filter: brightness(95%);
+}
+
+h5 {
+  color: white;
+  background-color: #3498db;
+  padding: 10px;
+  width: 395px;
+  margin-top: -42px;
+  margin-bottom: 10px;
+  text-align: center;
+  float: right;
+  font-size: 19px;
+  
+}
+
+.sobre {
+  
+  background-color: #3498db;
+  width: 750px;
+  height: 1050px;
+  position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 380px;
+}
+
+h6 {
+    margin-left: 10px;
+    color: #3498db;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  .sobre img {
+    width: 300px;
+    margin-left: 230px;
+  }
